@@ -8,8 +8,8 @@ $_SESSION['user_name'] = $_POST['playername'];
 
 $player = new player($_SESSION['user_name'],1,1,1);
 $_SESSION['player'] = serialize($player);
-$conn_string = "host=localhost port=5434 dbname=sample user=postgres password= options='--client_encoding=UTF8'";
-
+//$conn_string = "host=localhost port=5434 dbname=sample user=postgres password= options='--client_encoding=UTF8'";
+global $conn_string;
 // Establish a connection with MySQL server
 $dbconn = pg_connect($conn_string);
 
