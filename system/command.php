@@ -8,6 +8,9 @@ $player = unserialize($_SESSION['player']);
 
 <body>
 <?php
+/**
+ * Parse and handel the command receive from player
+ */
 $command = $_POST['command'];
 $m = explode(" ", $command);
 $m1 = strtolower($m[0]);
