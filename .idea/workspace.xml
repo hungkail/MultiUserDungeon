@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9db46e3-19a7-4d73-babe-88c691edb80e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/system/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/chatScreen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playerScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/playerScreen.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +22,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
@@ -48,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playerScreen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state relative-caret-position="87">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -61,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/chatScreen.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="39" />
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -69,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/command.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="2929">
               <caret line="101" selection-start-line="101" selection-end-line="103" selection-end-column="33" />
             </state>
           </provider>
@@ -114,8 +115,6 @@
         <option value="$PROJECT_DIR$/system/room.php" />
         <option value="$PROJECT_DIR$/system/player.php" />
         <option value="$PROJECT_DIR$/system/style.css" />
-        <option value="$PROJECT_DIR$/chatScreen.php" />
-        <option value="$PROJECT_DIR$/playerScreen.php" />
         <option value="$PROJECT_DIR$/system/map.php" />
         <option value="$PROJECT_DIR$/system/command.php" />
         <option value="$PROJECT_DIR$/main.php" />
@@ -123,6 +122,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/setname.php" />
         <option value="$PROJECT_DIR$/system/config.php" />
+        <option value="$PROJECT_DIR$/chatScreen.php" />
+        <option value="$PROJECT_DIR$/playerScreen.php" />
       </list>
     </option>
   </component>
@@ -218,12 +219,12 @@
       <workItem from="1558068926409" duration="13000" />
       <workItem from="1558151727540" duration="21753000" />
       <workItem from="1558234624633" duration="22886000" />
-      <workItem from="1558262436386" duration="1954000" />
+      <workItem from="1558262436386" duration="2041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72430000" />
+    <option name="totallyTimeSpent" value="72517000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,24 +307,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playerScreen.php">
+    <entry file="file://$PROJECT_DIR$/system/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chatScreen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/command.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="101" selection-start-line="101" selection-end-line="103" selection-end-column="33" />
+        <state relative-caret-position="174">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -334,10 +321,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/config.php">
+    <entry file="file://$PROJECT_DIR$/system/command.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        <state relative-caret-position="2929">
+          <caret line="101" selection-start-line="101" selection-end-line="103" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatScreen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playerScreen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
