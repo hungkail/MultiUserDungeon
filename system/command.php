@@ -91,7 +91,7 @@ switch ($m1){
         break;
     default:
         if($m1){
-            $outPutmessage = "invalid command<Br>command list:<br> say (dialog): to say something in current room<br> yell (dialog): to say something in global <br> tell (user_name) (dialog): to whisper someone <br> move by north, south, east, west, up, down";
+            $outPutmessage = "invalid command<Br>";
 
         }
 }
@@ -106,6 +106,9 @@ switch ($m1){
     command: <input type="text" name="command">
     <input type="submit"> </form>
 </body>
-
+<?php
+    echo "<Br><Br><Br>";
+    echo "command list:<br> say (dialog): to say something in current room<br> yell (dialog): to say something in global <br> tell (user_name) (dialog): to whisper someone <br> move by north, south, east, west, up, down"
+?>
 
 </html>
